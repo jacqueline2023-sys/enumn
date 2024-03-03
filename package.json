@@ -1,6 +1,20 @@
-# https://tea.xyz/what-is-this-file
----
-version: 1.0.0
-codeOwners:
-  - '0xD5d8D367451d2b961185BaD437Ac7C9fad9f8C99'
-quorum: 1
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "This is my awesome project.",
+  "author": "jacque <jacquelinezaremskitjg19@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "babel-cli": "^7.14.8",
+    "eslint": "^7.32.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  }
+}
+
